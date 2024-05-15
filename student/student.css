@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0p;
+    box-sizing: border-box;
+}
+body{
+    position: fixed;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.container{
+    position: absolute;
+    width: 300px;
+    height: max-content;
+    margin-left: 820px;
+    margin-top: 150px;
+    padding-left: 20px;
+    background-color: transparent;
+    line-height: 20px;
+}
+input,select,textarea{
+    margin-bottom: 9px;
+}
+#label{
+    font-weight: bolder;
+}
+button{
+    position: relative;
+    padding: 6px 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(17, 18, 18);
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 20px 100px ;
+    background-color: rgb(253, 194, 237);
+}
